@@ -1,0 +1,25 @@
+U římských čísel se používá sedm znaků, které se opakují a kombinují různými způsoby, aby vyjádřily
+číselnou hodnotu.
+I = 1
+V = 5
+X = 10
+L = 50
+C = 100
+D = 500
+M = 1000
+Následují základní pravidla pro konstrukci římských čísel:
+• V některých případech se znaky sčítají. I je 1, II je rovno 2 a III znamená 3. VI se rovná 6 (doslova
+„5 a 1“), VII je 7 a VIII je 8.
+• Desítkové znaky (I, X, C a M) se mohou opakovat nanejvýš třikrát. Hodnotu 4 musíme vyjádřit odečtením
+od dalšího vyššího pětkového znaku. Hodnotu 4 nemůžeme zapsat jako IIII. Místo toho ji
+musíme zapsat jako IV („o 1 méně než 5“). 40 se zapisuje jako XL („o 10 méně než 50“), 41 jako XLI,
+42 jako XLII, 43 jako XLIII a následuje 44 jako XLIV („o 10 méně než 50 a k tomu o 1 méně než 5“).
+• Někdy znaky vyjadřují... opak sčítání. Když některé znaky umístíme před jiné, provádíme odčítání
+od konečné hodnoty. Například hodnotu 9 musíme vyjádřit odečtením od dalšího vyššího desítkového
+znaku: 8 zapíšeme jako VIII, ale 9 zapíšeme IX („o 1 méně než 10“) a ne jako VIIII (protože
+znak I nemůžeme opakovat čtyřikrát). 90 je XC, 900 je CM.
+• Pětkové znaky se nesmí opakovat. 10 se vždy zapisuje jako X a nikdy jako VV. 100 je vždy C, nikdy LL.
+• Římská čísla se čtou zleva doprava, takže na pořadí znaků velmi záleží. DC znamená 600, ale CD
+je úplně jiné číslo (400, „o 100 méně než 500“). CI je 101; IC není dokonce vůbec platné římské
+číslo (protože 1 nemůžeme přímo odčítat od 100; musíme to napsat jako XCIX, „o 10 méně než 100
+a k tomu o 1 méně než 10“).
