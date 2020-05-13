@@ -44,8 +44,8 @@ def to_roman(cislo):
                     cislo -= integer        # cislo = cislo - integer
             return result
         else:
-            raise OutOfRangeError('number out of range (must be 1..3999)')
-    raise NotIntegerError('non-integers can not be converted')
+            raise OutOfRangeError(f'number {cislo} is out of range (must be 1..4999)')
+    raise NotIntegerError(f'{cislo} - non-integers can not be converted')
 
 def from_roman(cislo):
     '''convert Roman numeral to integer'''
